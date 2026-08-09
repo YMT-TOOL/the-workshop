@@ -1,29 +1,30 @@
-# The Workshop v2.3 — Live Contact
+# The Workshop v2.4 — Mobile Polish + Y. Favicon
 
-## v2.3 変更点
-- Contact を Formspree に接続
-- Formspree endpoint: https://formspree.io/f/xyegkvra
-- 送信時のページ遷移なし
-- Sending / 成功 / エラー表示を追加
-- Hero タイトルを24px下へ調整
-- About 本文を少し静かな見え方へ調整
-- Workshop ホバー背景を追加
-- Contact 入力欄の余白を拡大
-- Footer にコンセプト文を追加
-- スクロールヘッダー / フェード演出 / スマホ対応を維持
+## v2.4 変更点
+- `01 — ABOUT / 02 — WORKSHOP / 03 — PHILOSOPHY / 04 — CONTACT` のセクションラベルを読みやすく拡大
+- Workshop内の `01 / 02 / 03 / 04` を削除
+- Project名 + Statusだけの静かな一覧レイアウトへ変更
+- スマホ表示でセクションラベル、Project名、Statusのバランスを微調整
+- 採用した `Y.` faviconを追加
+  - favicon.ico
+  - favicon-16x16.png
+  - favicon-32x32.png
+  - favicon-48x48.png
+  - apple-touch-icon.png
+  - favicon-512x512.png
+- Formspree Contact (`xyegkvra`) はv2.3の動作を維持
+- Hero / About / Philosophy / Contact / Footerの世界観は維持
 
-## 画像
-`images/background.png` を配置してください。
+## Hero背景について
+アップロードされたv2.3 ZIPには `images/background.png` が含まれていなかったため、
+このZIPにも元のHero画像そのものは入っていません。
 
-## 起動
-1. ZIPを展開
-2. `images/background.png` を入れる
-3. VS Codeでフォルダを開く
-4. `index.html` を Live Server で起動
-5. Contactからテスト送信
+GitHub上にすでに `images/background.png` がある場合は削除せず、そのまま残してください。
+ローカルで使う場合は `images/background.png` を配置してください。
 
-## Next
-- 季節でHero背景を変更
-- Workshop詳細ページ
-- Contactスパム対策
-- GitHub Pages等で公開
+## GitHub Pages更新
+GitHubの `the-workshop` リポジトリに、このv2.4の
+`index.html / style.css / script.js / README.md / favicon各ファイル`
+をアップロードして既存ファイルを置き換えます。
+
+`images/background.png` は既存のものを残してください。
