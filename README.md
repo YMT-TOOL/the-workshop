@@ -28,3 +28,11 @@ GitHubの `the-workshop` リポジトリに、このv2.4の
 をアップロードして既存ファイルを置き換えます。
 
 `images/background.png` は既存のものを残してください。
+
+
+---
+
+## v2.4.1 変更点
+- `01 ABOUT / 02 WORKSHOP / 03 PHILOSOPHY / 04 CONTACT` の表示ルールを完全に統一
+- フォント、サイズ、文字間隔、色、線との間隔を共通化
+- それ以外のデザイン・Contact機能・faviconはv2.4を維持

@@ -85,3 +85,38 @@ button,input,textarea{font:inherit}
   .project-name{font-size:21px}
   .project-status{font-size:10px;letter-spacing:1.5px}
 }
+
+
+/* =========================
+   v2.4.1 - Chapter label unification
+   01 ABOUT / 02 WORKSHOP / 03 PHILOSOPHY / 04 CONTACT
+   are intentionally identical.
+========================= */
+.section-label {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 70px;
+  color: #7f776f;
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 3.5px;
+  line-height: 1;
+}
+
+.section-label > span:first-child,
+.section-label > span:last-child {
+  font: inherit;
+  color: inherit;
+  letter-spacing: inherit;
+}
+
+@media (max-width: 520px) {
+  .section-label {
+    gap: 14px;
+    margin-bottom: 48px;
+    font-size: 13px;
+    letter-spacing: 3px;
+  }
+}
