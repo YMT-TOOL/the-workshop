@@ -1,4 +1,4 @@
-# The Workshop v2.4 — Mobile Polish + Y. Favicon
+# The Workshop v2.4.2 — Section Label Fix
 
 ## v2.4 変更点
 - `01 — ABOUT / 02 — WORKSHOP / 03 — PHILOSOPHY / 04 — CONTACT` のセクションラベルを読みやすく拡大
@@ -36,3 +36,15 @@ GitHubの `the-workshop` リポジトリに、このv2.4の
 - `01 ABOUT / 02 WORKSHOP / 03 PHILOSOPHY / 04 CONTACT` の表示ルールを完全に統一
 - フォント、サイズ、文字間隔、色、線との間隔を共通化
 - それ以外のデザイン・Contact機能・faviconはv2.4を維持
+
+
+---
+
+## v2.4.2 変更点
+- `01 ABOUT / 02 WORKSHOP / 03 PHILOSOPHY / 04 CONTACT` を明確に大きく変更
+- PC: 16px
+- スマホ: 15〜16px
+- 文字間隔を少し狭めて読みやすく調整
+- セクション区切り線を少し長く・濃く調整
+- About本文や他のセクション本文は変更なし
+- Contact / favicon / GitHub Pages用構成は維持

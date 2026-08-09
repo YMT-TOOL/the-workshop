@@ -120,3 +120,64 @@ button,input,textarea{font:inherit}
     letter-spacing: 3px;
   }
 }
+
+
+/* =========================
+   v2.4.2 - Section label visibility fix
+   Make 01 ABOUT / 02 WORKSHOP / 03 PHILOSOPHY / 04 CONTACT
+   clearly readable and visually consistent.
+========================= */
+
+.section-label {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 72px;
+
+  color: #6f6962;
+
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 2.6px;
+  line-height: 1;
+}
+
+.section-label > span:first-child,
+.section-label > span:last-child {
+  font: inherit;
+  color: inherit;
+  letter-spacing: inherit;
+}
+
+.section-line {
+  width: 86px;
+  height: 1px;
+  background: #bbb2a7;
+}
+
+@media (max-width: 800px) {
+  .section-label {
+    gap: 16px;
+    margin-bottom: 58px;
+    font-size: 16px;
+    letter-spacing: 2.4px;
+  }
+
+  .section-line {
+    width: 72px;
+  }
+}
+
+@media (max-width: 520px) {
+  .section-label {
+    gap: 14px;
+    margin-bottom: 54px;
+    font-size: 15px;
+    letter-spacing: 2.2px;
+  }
+
+  .section-line {
+    width: 58px;
+  }
+}
