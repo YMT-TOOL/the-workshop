@@ -1,4 +1,4 @@
-# The Workshop v2.4.2 — Section Label Fix
+# The Workshop v2.5 — Project Links
 
 ## v2.4 変更点
 - `01 — ABOUT / 02 — WORKSHOP / 03 — PHILOSOPHY / 04 — CONTACT` のセクションラベルを読みやすく拡大
@@ -48,3 +48,18 @@ GitHubの `the-workshop` リポジトリに、このv2.4の
 - セクション区切り線を少し長く・濃く調整
 - About本文や他のセクション本文は変更なし
 - Contact / favicon / GitHub Pages用構成は維持
+
+
+---
+
+## v2.5 変更点
+
+- WORKSHOPの作品一覧を現在のプロジェクト構成に整理
+- `Disney Planner` は独立作品にせず `First Note` に統合
+- `First Note` を公開Web版へリンク
+  - https://ymt-tool.github.io/first-note/
+- `The Workshop` をLIVE表記
+- `First Step` はPROTOTYPE
+- `Component Finder` はBUILDING
+- `Excel Automation` はTOOLS
+- LIVE作品は別タブで開く
