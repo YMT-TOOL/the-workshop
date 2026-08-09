@@ -1,4 +1,4 @@
-# The Workshop v2.5 — Project Links
+# The Workshop v2.5.1 — First Step Live
 
 ## v2.4 変更点
 - `01 — ABOUT / 02 — WORKSHOP / 03 — PHILOSOPHY / 04 — CONTACT` のセクションラベルを読みやすく拡大
@@ -63,3 +63,8 @@ GitHubの `the-workshop` リポジトリに、このv2.4の
 - `Component Finder` はBUILDING
 - `Excel Automation` はTOOLS
 - LIVE作品は別タブで開く
+
+
+## v2.5.1
+- First StepをLIVEへ変更
+- https://ymt-tool.github.io/first-step/ へリンク
