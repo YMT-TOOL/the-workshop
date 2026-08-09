@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YMT | The Workshop</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Space+Grotesk:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="logo" href="#">Y M T</a>
+  <nav class="nav">
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#philosophy">Philosophy</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <p class="eyebrow">Since 2026</p>
+      <h1>The Workshop</h1>
+      <p class="hero-copy">Creating tools<br>I'd love to use.</p>
+      <a class="scroll-link" href="#about">SCROLL ↓</a>
+    </div>
+  </section>
+
+  <section id="about" class="section about reveal">
+    <div class="container">
+      <div class="section-label">
+        <span>01</span><span class="section-line"></span><span>ABOUT</span>
+      </div>
+      <div class="section-grid">
+        <h2>I like building things.<br>At my own pace.</h2>
+        <p>必要になったものを、その時々で作っています。何か特定のものを作るためではなく、その時に「欲しい」と思ったものを、自分のペースで。</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section projects reveal">
+    <div class="container">
+      <div class="section-label">
+        <span>02</span><span class="section-line"></span><span>WORKSHOP</span>
+      </div>
+      <div class="project-list">
+        <a href="#" class="project-item"><span class="project-number">01</span><span class="project-name">Component Finder</span><span class="project-status">Building</span></a>
+        <a href="#" class="project-item"><span class="project-number">02</span><span class="project-name">Disney Planner</span><span class="project-status">Planning</span></a>
+        <a href="#" class="project-item"><span class="project-number">03</span><span class="project-name">Excel Automation</span><span class="project-status">Building</span></a>
+        <a href="#" class="project-item"><span class="project-number">04</span><span class="project-name">The Workshop</span><span class="project-status">Evolving</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section id="philosophy" class="section philosophy reveal">
+    <div class="container">
+      <div class="section-label">
+        <span>03</span><span class="section-line"></span><span>PHILOSOPHY</span>
+      </div>
+      <div class="philosophy-content">
+        <h2>Create first.<br>Share later.</h2>
+        <p>まず作ってみる。<br>必要なら、あとで誰かと共有する。</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact reveal">
+    <div class="container">
+      <div class="section-label">
+        <span>04</span><span class="section-line"></span><span>CONTACT</span>
+      </div>
+
+      <div class="contact-intro">
+        <h2>Have something in mind?</h2>
+        <p>何か作ってほしいもの、一緒に考えたいことがあればどうぞ。</p>
+      </div>
+
+      <form class="contact-form" id="contactForm" action="https://formspree.io/f/xyegkvra" method="POST">
+        <div class="form-field">
+          <label for="name">NAME</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required>
+        </div>
+
+        <div class="form-field">
+          <label for="email">EMAIL</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+        </div>
+
+        <div class="form-field">
+          <label for="message">MESSAGE</label>
+          <textarea id="message" name="message" rows="6" placeholder="Tell me what's on your mind." required></textarea>
+        </div>
+
+        <button type="submit" class="send-button">SEND →</button>
+        <p class="form-message" id="formMessage"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <p class="footer-title">Still Building.</p>
+      <p class="footer-copy">A place for things I decided were worth building.</p>
+      <p class="footer-subtitle">Y M T · Since 2026</p>
+    </div>
+    <p class="copyright">© 2026 YMT</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
